@@ -1,0 +1,18 @@
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin/private pages (when you add them)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap location
+Sitemap: https://laptopverdicts.com/sitemap.xml
+
+# Crawl-delay for aggressive bots
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
